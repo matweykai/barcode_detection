@@ -17,3 +17,8 @@ setup:
 train:
 	$(ACTIVATE_VENV)
 	$(CALL_CMD) src/train.py $(CONFIG_PATH)
+
+EXPORT_MODEL_PATH=weights/yolo_8n_994.pt
+export_onnx:
+	$(ACTIVATE_VENV)
+	$(CALL_CMD) src/export.py $(EXPORT_MODEL_PATH)

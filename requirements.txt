@@ -6,3 +6,4 @@ pydantic==2.5.3
 ultralytics==8.0.228
 omegaconf==2.3.0
 clearml==1.13.2
+onnx==1.15.0
