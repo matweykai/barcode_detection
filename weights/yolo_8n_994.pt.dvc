@@ -1,0 +1,5 @@
+outs:
+- md5: 7cf253048d194686212c36d075398df9
+  size: 6224281
+  hash: md5
+  path: yolo_8n_994.pt
