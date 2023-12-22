@@ -1,0 +1,4 @@
+jupyter==1.0.0
+pandas==2.1.4
+opencv-python==4.8.1.78
+dvc==3.36.0
