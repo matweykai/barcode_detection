@@ -1,4 +1,9 @@
 jupyter==1.0.0
 pandas==2.1.4
 opencv-python==4.8.1.78
-dvc==3.36.0
+dvc[ssh]==3.36.0
+pydantic==2.5.3
+ultralytics==8.0.228
+omegaconf==2.3.0
+clearml==1.13.2
+onnx==1.15.0
